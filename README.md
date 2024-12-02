@@ -1,7 +1,9 @@
 # Task
 ## Demo
-![Screenshot_2-12-2024_15310_localhost](https://github.com/user-attachments/assets/e44c4e81-9b5d-4d7b-bece-f1b40c2817ba)
-![Screenshot 2024-12-02 150358](https://github.com/user-attachments/assets/cde6ffdf-12d4-458c-afb1-e7a40df57204)
+![Screenshot 2024-12-02 150358](https://github.com/user-attachments/assets/0cfb13e7-1926-4c31-8c9b-5e0b385076e9)
+![screencapture-localhost-3000-2024-12-02-15_13_11](https://github.com/user-attachments/assets/bf11ee22-e8d0-4933-a9fd-83257d3b6df0)
+
+
 
 
 Responsive, static web page built with Next.js and SCSS, designed to replicate a provided Figma design.
