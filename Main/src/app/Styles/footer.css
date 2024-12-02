@@ -1,0 +1,158 @@
+.footer {
+  width: 1920px;
+  height: 721px;
+  top: 3484px;
+  background: #f4f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-body {
+  width: 1170px;
+  height: 450px;
+  top: 3504px;
+  left: 375px;
+  gap: 40px;
+}
+
+.footer-content {
+  width: 1170px;
+  height: 296px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}
+.category,
+.aboutfo,
+.res,
+.supt {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: #000000b2;
+  font-family: "Onest", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  text-align: left;
+  gap: 5px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.head1 {
+  margin-bottom: 30px;
+  font-family: "Onest", sans-serif;
+  color: #00000080;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: -0.005em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Channels {
+  width: 1170px;
+  height: 64px;
+  padding: 0px 0px 32px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-media {
+  width: 176px;
+  height: 32px;
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
+}
+.social-app {
+  width: 26px;
+  height: 26px;
+  margin-top: 3px;
+  margin-left: 3px;
+  color: #00000080;
+}
+.copyRighgt {
+  width: 216px;
+  height: 19px;
+  font-family: "Onest", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-top: 50px;
+  letter-spacing: -0.005em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #00000080;
+}
+.dashed-line {
+  border: none;
+  border-top: 2px dashed #00000030;
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    width: 8000px;
+    height: 421px;
+    margin-left: -3250px;
+  }
+  .footer-body {
+    width: 900px;
+    height: 421px;
+    margin-top: 100px;
+    gap: 2px;
+    background: #f4f4f6;
+  }
+
+  .footer-content {
+    width: 760px;
+    height: 196px;
+    margin-left: 20px;
+  }
+
+  .head1 {
+    margin-bottom: 10px;
+  }
+  .Channels {
+    width: 700px;
+    height: 44px;
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  .social-media {
+    gap: 6px;
+  }
+  .social-app {
+    width: 20px;
+    height: 20px;
+  }
+  .copyRighgt {
+    width: 316px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  .dashed-line {
+    margin: 30px 0;
+  }
+}
+@media (max-width: 1024px) {
+  .footer-body {
+    margin-left: -650px;
+  }
+}
+@media (max-width: 820px) {
+  .Channels {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+  }
+}

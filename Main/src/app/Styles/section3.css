@@ -1,0 +1,191 @@
+.section3 {
+  width: 1920px;
+  height: 600px;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  margin-left: 375px;
+  display: grid;
+  grid-template-columns: 424px 524px;
+  gap: 48px;
+}
+.we-provide {
+  width: 424px;
+  height: 546px;
+}
+.image-box {
+  width: 621px;
+  height: 600px;
+  background-image: url("../assets/Group\ 5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.h-tag {
+  width: 315px;
+  height: 48px;
+  font-family: "Onest", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.005em;
+  text-align: left;
+  margin-left: 20px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.Cheak {
+  width: 32px;
+  height: 32px;
+  padding: 3px;
+}
+
+.Follow-up,
+.support {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.Personalized {
+  width: 254px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.Follow-up {
+  width: 396px;
+}
+.support {
+  width: 294px;
+}
+.Personalized,
+.support,
+.Follow-up {
+  height: 32px;
+  gap: 32px;
+  color: #00000099;
+  font-family: "Onest", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.005em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.resources {
+  width: 424px;
+  height: 154px;
+  padding: 20px;
+  gap: 32px;
+  border: 1px solid #cbcbcb8c;
+  display: flex;
+  flex-direction: flex-start;
+  align-items: center;
+  font-family: "Onest", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: -0.005em;
+  text-align: left;
+  margin-top: 50px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border-width: 1px, 0px;
+}
+
+.icon-cheak {
+  width: 33px;
+  height: 32px;
+  color: #9998e1;
+}
+.passage h3 {
+  font-family: "Onest", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.passage p {
+  font-family: "Onest", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.passage h3,
+.passage p {
+  letter-spacing: -0.005em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #000000b2;
+}
+.Serv-btn {
+  width: 258px;
+  height: 50px;
+  padding: 16px 24px;
+  gap: 8px;
+  border-radius: 32px;
+  border: 1px;
+  border: 1px solid #287279;
+  font-family: "Onest", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #287279;
+}
+
+/*for Dimensions ipad mini */
+@media (max-width: 768px) {
+  .section3 {
+    margin-top: 600px;
+    margin-bottom: 150px;
+    margin-left: 35px;
+  }
+  .we-provide {
+    width: 424px;
+    height: 546px;
+  }
+  .image-box {
+    width: 420px;
+    height: 400px;
+    margin-left: -60px;
+    margin-top: 20px;
+  }
+  .h-tag {
+    font-size: 30px;
+  }
+  .Cheak {
+    width: 24px;
+  }
+  .Personalized,
+  .resources,
+  .support,
+  .Follow-up {
+    gap: 12px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 19px;
+  }
+  .resources {
+    width: 380px;
+  }
+
+  .passage h3 {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .passage p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1024px) {
+  .section3 {
+    margin-left: 60px;
+  }
+}
