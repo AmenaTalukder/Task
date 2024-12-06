@@ -124,9 +124,9 @@
 /* Responsive for phones ipad Mini */
 @media (max-width: 768px) {
   .nav-bar {
-    width: 900px;
+    width: 800px;
     flex-direction: row;
-    margin-left: -200px;
+    left: -450px;
   }
 
   .logo {
@@ -329,16 +329,16 @@
     margin-right: 20px;
   }
 }
-@media (max-width: 848px) {
+@media (max-width: 853px) {
   .nav-bar {
-    width: 848px;
-    margin-left: -750px;
+    width: 853px;
+    left: -70px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 820px) {
   .nav-bar {
-    width: 1000px;
-    margin-left: 20px;
+    width: 900px;
+    left: -450px;
   }
 }
 @media (max-width: 1130px) {
@@ -351,11 +351,25 @@
 @media (max-width: 578px) {
   .nav-bar {
     width: 678px;
-    margin-left: -100px;
-    background-color: white;
+    left: -300px;
   }
   .logo {
-    margin-left: 10px;
+    left: 50px;
+    font-size: 20px;
+  }
+  .nav-buttons {
+    width: 42px;
+    height: 42px;
+    gap: 4px;
+    display: flex;
+    flex-direction: columns;
+    justify-content: center;
+  }
+  .nav-items {
+    gap: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 @media (max-width: 395px) {
